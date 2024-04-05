@@ -90,7 +90,44 @@ class quiz1 extends StatelessWidget {
                 )
               ],),
             ),
-            Card()
+            Card(
+              child: Column(
+                children: [
+                  Text('Shipping infromation'),
+                  Row(children: [
+                    Text('Name'),
+                    Text('Jacob Jones')
+                  ],),
+                  Row(
+                    children: [
+                    Text('Phone Number'),
+                    Text('Jacob Jones')
+                  ],
+                  ),
+                  Row(children: [
+                    Text('Adress'),
+                    Text('Jacob Jones')
+                  ],),
+                  Row(children: [
+                    Text('5679'),
+                   
+                  ],),
+                  Row(children: [
+                    Text('Shipment'),
+                    Text('Economy')
+                   
+                  ],),
+                ],
+              ),
+            ),
+            Card(child: Column(children: [
+              Text('Payment Information'),
+              Row( 
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children:[
+              Text('Payment Method'),
+              Text('Cash On delivery')])
+            ]),)
           ]),
         ),
       
