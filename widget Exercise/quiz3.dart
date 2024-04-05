@@ -59,7 +59,35 @@ class quiz1 extends StatelessWidget {
               ]),),
             Card(
               child: Column(children: [
-                Text('Purchased Items')
+                Text('Purchased Items'),
+                Row(
+                  children: [
+                    Image.asset('assets/img1.jpg', width: 100, height: 100,),
+                    Column(
+                      children: [
+                        Text('Blue t-shirt'),
+                        Text('size: L'),
+                        Text('50.00')
+                      ],
+                    )
+                  ],
+                  
+
+                ),
+                Row(
+                  children: [
+                    Image.asset('assets/img1.jpg', width: 100, height: 100,),
+                    Column(
+                      children: [
+                        Text('Hoodie Rose'),
+                        Text('size: L'),
+                        Text('50.00')
+                      ],
+                    )
+                  ],
+                  
+
+                )
               ],),
             ),
             Card()
